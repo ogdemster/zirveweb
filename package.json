@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "type": "module",
-  "homepage": "https://ogdemster.github.io/zirveweb/",
+  "homepage": "https://ogdemster.github.io/zirveweb",
   "scripts": {
     "dev": "parcel index.html",
-    "deploy": "parcel build index.html --public-url /zirveweb/ && gh-pages -d dist"
+    "deploy": "parcel build index.html --public-url / && gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
